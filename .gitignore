@@ -12,6 +12,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+bin/
+include/
 build/
 develop-eggs/
 dist/
@@ -87,4 +89,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
