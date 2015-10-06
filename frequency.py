@@ -20,7 +20,12 @@ def histogram(source_text):
 
 
 def unique_words(histogram):
-    return 0
+    count = 0
+    for word, frequency in histogram:
+        if(frequency == 1):
+            count++
+        
+    return count
 
 
 def frequency(histogram, word):
